@@ -1,0 +1,120 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
+const MenuItems = (props) => {
+  const { parentMenu, secondParentMenu, activeMenu } = props;
+
+  return (
+    <React.Fragment>
+      <li
+        className={
+          parentMenu === "Home" ? "dropdown current-menu-item" : "dropdown"
+        }
+      >
+        <Link to="#">Home</Link>
+      </li>
+      <li className={parentMenu === "about" ? "current-menu-item" : ""}>
+        <Link
+          to="https://tegalsari.desacantik.id/"
+          className={activeMenu === "/about" ? "active-menu" : ""}
+        >
+          Profile Desa
+        </Link>
+      </li>
+      <li
+        className={
+          parentMenu === "Services" ? "dropdown current-menu-item" : "dropdown"
+        }
+      >
+        <Link to="#">UMKM</Link>
+        <ul className="sub-menu">
+          <li>
+            <Link
+              to="/service"
+              className={activeMenu === "/service" ? "active-menu" : ""}
+            >
+              KOPI
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/service/service-2"
+              className={activeMenu === "/service-2" ? "active-menu" : ""}
+            >
+              MADU
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/service/service-details"
+              className={activeMenu === "/service-details" ? "active-menu" : ""}
+            >
+              LEMON
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/service/service-details-2"
+              className={
+                activeMenu === "/service-details-2" ? "active-menu" : ""
+              }
+            >
+              Infidelity Investigation
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/service/service-details-3"
+              className={
+                activeMenu === "/service-details-3" ? "active-menu" : ""
+              }
+            >
+              Surveillance Services
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/service/service-details-4"
+              className={
+                activeMenu === "/service-details-4" ? "active-menu" : ""
+              }
+            >
+              CCTV Security
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/service/service-details-5"
+              className={
+                activeMenu === "/service-details-5" ? "active-menu" : ""
+              }
+            >
+              Security Consulting
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/service/service-details-6"
+              className={
+                activeMenu === "/service-details-6" ? "active-menu" : ""
+              }
+            >
+              Assets Investigation
+            </Link>
+          </li>
+        </ul>
+      </li>
+
+      <li className={parentMenu === "contact" ? "current-menu-item" : ""}>
+        <Link
+          to="/contact"
+          className={activeMenu === "/contact" ? "active-menu" : ""}
+        >
+          Contact
+        </Link>
+      </li>
+    </React.Fragment>
+  );
+};
+
+export default MenuItems;
