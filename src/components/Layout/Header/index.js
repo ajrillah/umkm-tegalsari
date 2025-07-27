@@ -43,15 +43,11 @@ const Header = (props) => {
         {/* main header */}
         <header className={`main-header ${isVisible ? "fixed-header" : ""}`}>
           {/* header-top */}
-          <TopHeader />
+          {/* <TopHeader /> */}
           {/* header-lower */}
           <div className="header-lower">
             <div className="outer-container">
               <div className="outer-box">
-                <div
-                  className="shape"
-                  style={{ backgroundImage: `url(${navShape})` }}
-                />
                 <div className="menu-area">
                   <div className="logo-box">
                     <figure className="logo">
@@ -85,12 +81,6 @@ const Header = (props) => {
                   </nav>
                 </div>
                 <div className="menu-right-content">
-                  <div className="support-box">
-                    <div className="icon-box gradient-color">
-                      <i className="icon-2" />
-                    </div>
-                    <Link to="tel:2395432170108">(239)-543-217-0108</Link>
-                  </div>
                   <div className="btn-box">
                     <Link to="/" className="theme-btn btn-one">
                       <span>Let’s Contact</span>
@@ -128,12 +118,6 @@ const Header = (props) => {
                   </nav>
                 </div>
                 <div className="menu-right-content">
-                  <div className="support-box">
-                    <div className="icon-box gradient-color">
-                      <i className="icon-2"></i>
-                    </div>
-                    <Link to="tel:2395432170108">(239)-543-217-0108</Link>
-                  </div>
                   <div className="btn-box">
                     <Link to="/" className="theme-btn btn-one">
                       <span>Let’s Contact</span>

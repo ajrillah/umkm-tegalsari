@@ -15,7 +15,7 @@ const ServiceTwo = () => {
       />
       {/* breadcrumb-area-start */}
       <SiteBreadcrumb
-        pageTitle="Madu"
+        pageTitle="kopi"
         pageName="Our Service 2"
         breadcrumbsImg={bannerbg}
       />

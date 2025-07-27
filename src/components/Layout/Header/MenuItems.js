@@ -30,36 +30,12 @@ const MenuItems = (props) => {
         <ul className="sub-menu">
           <li>
             <Link
-              to="/service"
-              className={activeMenu === "/service" ? "active-menu" : ""}
-            >
-              KOPI
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/service/service-2"
-              className={activeMenu === "/service-2" ? "active-menu" : ""}
-            >
-              MADU
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/service/service-details"
-              className={activeMenu === "/service-details" ? "active-menu" : ""}
-            >
-              LEMON
-            </Link>
-          </li>
-          <li>
-            <Link
               to="/service/service-details-2"
               className={
                 activeMenu === "/service-details-2" ? "active-menu" : ""
               }
             >
-              Infidelity Investigation
+              KOPI
             </Link>
           </li>
           <li>
@@ -69,7 +45,7 @@ const MenuItems = (props) => {
                 activeMenu === "/service-details-3" ? "active-menu" : ""
               }
             >
-              Surveillance Services
+              MADU
             </Link>
           </li>
           <li>
@@ -79,7 +55,7 @@ const MenuItems = (props) => {
                 activeMenu === "/service-details-4" ? "active-menu" : ""
               }
             >
-              CCTV Security
+              LEMON
             </Link>
           </li>
           <li>
@@ -89,7 +65,7 @@ const MenuItems = (props) => {
                 activeMenu === "/service-details-5" ? "active-menu" : ""
               }
             >
-              Security Consulting
+              POT
             </Link>
           </li>
           <li>
@@ -99,7 +75,7 @@ const MenuItems = (props) => {
                 activeMenu === "/service-details-6" ? "active-menu" : ""
               }
             >
-              Assets Investigation
+              -
             </Link>
           </li>
         </ul>
