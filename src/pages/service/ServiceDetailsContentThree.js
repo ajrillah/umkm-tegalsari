@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import bgImg1 from "../../assets/images/shape/shape-16.png";
 import aboutPart1 from "../../assets/images/resource/men-2.png";
-import aboutPart2 from "../..//assets/images/banner/madu2.JPG";
-import aboutPart3 from "../../assets/images/banner/madu3.JPG";
+import aboutPart2 from "../..//assets/images/banner/madu-besar.png";
+import aboutPart3 from "../../assets/images/banner/madu-mid.png";
 import aboutPart4 from "../../assets/images/banner/madu8.jpeg";
 import aboutPart5 from "../../assets/images/banner/madu3.JPG";
 import aboutPart6 from "../../assets/images/banner/madu3.JPG";
@@ -62,12 +62,14 @@ const ServiceDetailsContentTwo = () => {
                             lebah biasa. Warna, rasa, dan aroma madunya sangat
                             khas dan cenderung lebih pekat. Lebah liar juga
                             lebih tahan terhadap penyakit, sehingga produksi
-                            madunya tidak memerlukan perlakuan kimiawi. Selain
-                            itu, proses panen yang dilakukan secara tradisional
-                            tanpa sentuhan bahan tambahan membuat madu ini tetap
-                            alami dan bernutrisi. UMKM Tegalsari memastikan
-                            setiap tetes madu yang dijual merupakan hasil alam
-                            yang murni, aman, dan bergizi.
+                            madunya tidak memerlukan perlakuan kimiawi.
+                          </p>
+                          <p>
+                            Selain itu, proses panen yang dilakukan secara
+                            tradisional tanpa sentuhan bahan tambahan membuat
+                            madu ini tetap alami dan bernutrisi. UMKM Tegalsari
+                            memastikan setiap tetes madu yang dijual merupakan
+                            hasil alam yang murni, aman, dan bergizi.
                           </p>
                         </div>
                       </div>

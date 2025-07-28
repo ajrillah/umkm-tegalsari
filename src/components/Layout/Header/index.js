@@ -5,8 +5,8 @@ import TopHeader from "./TopBar";
 import MenuItems from "./MenuItems";
 import MobileMenu from "./MobileMenu";
 import navShape from "../../../assets/images/shape/shape-1.png";
-import navImg from "../../../assets/images/tegalsari1.jpg";
-import stickyImg from "../../../assets/images/logo.png";
+import navImg from "../../../assets/images/banner/logo-tegalsari.png";
+import stickyImg from "../../../assets/images/banner/logo-tegalsari.png";
 
 // import whiteLogo from '../../../assets/img/logo/white-logo.png';
 
