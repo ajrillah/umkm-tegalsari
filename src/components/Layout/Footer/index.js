@@ -32,12 +32,9 @@ const Footer = (props) => {
                 </figure>
                 <div className="text-box">
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipiscing
-                    elitsollicit udin netus quis ornare. Massa pharetra in nec
-                    sed nunc.
-                  </p>
-                  <p>
-                    nisl viverra massa imperdiet. Dui mattis quis congue fames.
+                    UMKM Desa Tegalsari hadir untuk mendukung kemandirian
+                    ekonomi warga melalui produk-produk lokal unggulan. Kami
+                    percaya kekuatan desa bisa mendunia.
                   </p>
                 </div>
               </div>
@@ -54,20 +51,31 @@ const Footer = (props) => {
                   <h3>Contact</h3>
                 </div>
                 <div className="widget-content">
-                  <p>Tincidunt neque pretium lectus donec risus.</p>
                   <ul className="info-list clearfix">
                     <li>
                       <img src={footerPart1} alt="" />
-                      Tegalsari, Kec. Garung, Kabupaten Wonosobo, Jawa Tengah
-                      56353
+                      <Link to="https://maps.app.goo.gl/JRK8csUtNxfYg5WD6">
+                        Tegalsari, Kec. Garung, Kabupaten Wonosobo, Jawa Tengah
+                        56353
+                      </Link>
                     </li>
                     <li>
                       <img src={footerPart2} alt="" />
-                      <Link to="mailto:example@info.com">example@info.com</Link>
+                      <Link to="mailto:garungtegalsari@gmail.com">
+                        garungtegalsari@gmail.com
+                      </Link>
+                    </li>
+                    <li>
+                      <img src={footerPart2} alt="" />
+                      <Link to="mailto:tegalsari.pemdes@gmail.com">
+                        tegalsari.pemdes@gmail.com
+                      </Link>
                     </li>
                     <li>
                       <img src={footerPart3} alt="" />
-                      <Link to="tel:3336660000">333 666 0000</Link>
+                      <Link to="https://wa.me/6281380974808">
+                        +6281380974808
+                      </Link>
                     </li>
                   </ul>
                 </div>

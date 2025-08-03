@@ -1,6 +1,6 @@
 import React from "react";
 import SiteBreadcrumb from "../../components/Common/Breadcumb";
-import bannerbg from "../../assets/images/background/page-title.jpg";
+import bannerbg from "../../assets/images/banner/bannerdesa1.JPG";
 import bgImg2 from "../../assets/images/background/contact-bg.jpg";
 import icon1 from "../../assets/images/icons/icon-14.svg";
 import icon2 from "../../assets/images/icons/icon-15.svg";
@@ -21,10 +21,7 @@ const ContactMain = () => {
 
       {/* contact-style-two */}
       <section className="contact-style-two sec-pad-2">
-        <div
-          className="bg-layer"
-          style={{ backgroundImage: `url(${bgImg2})` }}
-        />
+        <div className="bg-layer" />
         <div className="auto-container">
           <div className="row clearfix">
             <div className="col-lg-5 col-md-12 col-sm-12 content-column">
@@ -51,23 +48,47 @@ const ContactMain = () => {
                       <div className="col-lg-6 col-md-6 col-sm-12 single-column">
                         <div className="single-item">
                           <div className="icon-box">
-                            <img src={icon2} alt="" />
+                            <img src={icon3} alt="" />
                           </div>
-                          <h5>Opening Hours:</h5>
-                          <p>Mon - Fri 8:00AM - 6:00PM</p>
+                          <h5>Email:</h5>
+                          <p>
+                            <Link to="mailto:garungtegalsari@gmail.com">
+                              garungtegalsari@gmail.com
+                            </Link>
+                          </p>
+                        </div>
+                      </div>
+                      <div className="col-lg-6 col-md-6 col-sm-12 single-column">
+                        <div className="single-item">
+                          <div className="icon-box">
+                            <img src={icon3} alt="" />
+                          </div>
+                          <h5>Phone No:</h5>
+                          <p>
+                            <Link to="https://wa.me/6281380974808">
+                              +6281380974808
+                            </Link>
+                          </p>
+                        </div>
+                      </div>
+                      <div className="col-lg-6 col-md-6 col-sm-12 single-column">
+                        <div className="single-item">
+                          <div className="icon-box">
+                            <img src={icon3} alt="" />
+                          </div>
+                          <h5>Email:</h5>
+                          <p>
+                            <Link to="mailto:tegalsari.pemdes@gmail.com">
+                              tegalsari.pemdes@gmail.com
+                            </Link>
+                          </p>
                         </div>
                       </div>
                     </div>
                   </div>
                   <ul className="social-links clearfix">
                     <li>
-                      <Link to="/contact">
-                        <i className="fab fa-facebook-f" />
-                      </Link>
-                    </li>
-
-                    <li>
-                      <Link to="/contact">
+                      <Link to="https://instagram.com/desa.tegalsarigarung">
                         <i className="fab fa-instagram" />
                       </Link>
                     </li>

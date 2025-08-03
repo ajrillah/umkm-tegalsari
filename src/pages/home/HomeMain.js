@@ -19,16 +19,16 @@ const HomeMain = () => {
       <Banner />
       <About />
       <Service />
-      <Clients />
+      {/* <Clients /> */}
       {/* <Choose /> */}
       {/* <Video /> */}
       {/* <Funfacts /> */}
       {/* <TestimonialSlider1 /> */}
-      <Team />
-      <Faq />
+      {/* <Team />
+      <Faq /> */}
       {/* <News /> */}
 
-      <Cta />
+      {/* <Cta /> */}
     </React.Fragment>
   );
 };

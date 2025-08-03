@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import aboutPart1 from "../../assets/images/banner/banner-2.jpg";
-import aboutPart2 from "../../assets/images/banner/banner-2.jpg";
+import aboutPart1 from "../../assets/images/banner/bannerdesa1.JPG";
+import aboutPart2 from "../../assets/images/banner/bannerdesa1.JPG";
 import bgImg1 from "../../assets/images/shape/shape-5.png";
 import bgImg2 from "../../assets/images/shape/shape-6.png";
 

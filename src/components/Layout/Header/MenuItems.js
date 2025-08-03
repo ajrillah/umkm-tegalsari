@@ -11,7 +11,7 @@ const MenuItems = (props) => {
           parentMenu === "Home" ? "dropdown current-menu-item" : "dropdown"
         }
       >
-        <Link to="#">Home</Link>
+        <Link to="/">Home</Link>
       </li>
       <li className={parentMenu === "about" ? "current-menu-item" : ""}>
         <Link
@@ -58,7 +58,7 @@ const MenuItems = (props) => {
               LEMON
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               to="/service/service-details-5"
               className={
@@ -77,7 +77,7 @@ const MenuItems = (props) => {
             >
               -
             </Link>
-          </li>
+          </li> */}
         </ul>
       </li>
 

@@ -94,7 +94,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                         LEMON
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link
                         to="/service/service-details-5"
                         onClick={handleMobileMenu}
@@ -109,7 +109,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu, handleSidebar }) => {
                       >
                         -
                       </Link>
-                    </li>
+                    </li> */}
                   </ul>
 
                   <div

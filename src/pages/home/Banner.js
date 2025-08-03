@@ -10,8 +10,8 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
-import bgImg1 from "../../assets/images/banner/banner-4.jpg";
-import bgImg2 from "../../assets/images/banner/banner-4.jpg";
+import bgImg1 from "../../assets/images/banner/bannerdesa2.JPG";
+import bgImg2 from "../../assets/images/banner/bannerdesa8.JPG";
 //import bgShape1 from "../../assets/images/shape/shape-2.png";
 import bgShape2 from "../../assets/images/shape/shape-3.png";
 //import bgShape3 from "../../assets/images/shape/shape-4.png";
