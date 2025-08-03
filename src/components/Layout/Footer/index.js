@@ -43,56 +43,10 @@ const Footer = (props) => {
               </div>
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
-              <div className="footer-widget links-widget ml_50">
-                <div className="widget-title">
-                  <h3>Quick Link</h3>
-                </div>
-                <div className="widget-content">
-                  <ul className="links-list clearfix">
-                    <li>
-                      <Link to="/about">About Us</Link>
-                    </li>
-                    <li>
-                      <Link to="/service">Services</Link>
-                    </li>
-                    <li>
-                      <Link to="/case">Case</Link>
-                    </li>
-                    <li>
-                      <Link to="/blog">Blog</Link>
-                    </li>
-                    <li>
-                      <Link to="/contact">Contact Us</Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+              <div className="footer-widget links-widget ml_50"></div>
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
-              <div className="footer-widget links-widget ml_30">
-                <div className="widget-title">
-                  <h3>Usefull Links</h3>
-                </div>
-                <div className="widget-content">
-                  <ul className="links-list clearfix">
-                    <li>
-                      <Link to="/">Privacy Policy</Link>
-                    </li>
-                    <li>
-                      <Link to="/">Terms &amp; Condition</Link>
-                    </li>
-                    <li>
-                      <Link to="/">Support</Link>
-                    </li>
-                    <li>
-                      <Link to="/">Disclaimer</Link>
-                    </li>
-                    <li>
-                      <Link to="/">Faq</Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+              <div className="footer-widget links-widget ml_30"></div>
             </div>
             <div className="col-lg-3 col-md-6 col-sm-12 footer-column">
               <div className="footer-widget contact-widget">
@@ -104,7 +58,8 @@ const Footer = (props) => {
                   <ul className="info-list clearfix">
                     <li>
                       <img src={footerPart1} alt="" />
-                      New Hyde Park, NY 11040
+                      Tegalsari, Kec. Garung, Kabupaten Wonosobo, Jawa Tengah
+                      56353
                     </li>
                     <li>
                       <img src={footerPart2} alt="" />
@@ -124,10 +79,7 @@ const Footer = (props) => {
       <div className="footer-bottom centred">
         <div className="auto-container">
           <div className="copyright">
-            <p>
-              Copyright 2024 by <Link to="/">Insight</Link> template All Right
-              Reserved.
-            </p>
+            <p>Copyright 2025 by UGM</p>
           </div>
         </div>
       </div>

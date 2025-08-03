@@ -10,11 +10,11 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
-import bgImg1 from "../../assets/images/banner/tegalsari1.jpg";
-import bgImg2 from "../../assets/images/banner/tegalsari1.jpg";
-import bgShape1 from "../../assets/images/shape/shape-2.png";
+import bgImg1 from "../../assets/images/banner/banner-4.jpg";
+import bgImg2 from "../../assets/images/banner/banner-4.jpg";
+//import bgShape1 from "../../assets/images/shape/shape-2.png";
 import bgShape2 from "../../assets/images/shape/shape-3.png";
-import bgShape3 from "../../assets/images/shape/shape-4.png";
+//import bgShape3 from "../../assets/images/shape/shape-4.png";
 
 const swiperOptions = {
   modules: [Autoplay, Pagination, Navigation],
@@ -46,16 +46,8 @@ function Banner() {
           <SwiperSlide className="slide-item p_relative">
             <div className="pattern-layer">
               <div
-                className="pattern-1"
-                style={{ backgroundImage: `url(${bgShape1})` }}
-              ></div>
-              <div
                 className="pattern-2"
                 style={{ backgroundImage: `url(${bgShape2})` }}
-              ></div>
-              <div
-                className="pattern-3"
-                style={{ backgroundImage: `url(${bgShape3})` }}
               ></div>
             </div>
             <div
@@ -64,12 +56,9 @@ function Banner() {
             ></div>
             <div className="auto-container">
               <div className="content-box p_relative d_block z_5">
-                <h3>Discover The Truth</h3>
-                <h2>UMKM Tegalsari</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                  ridiculus tellus elit turpis.
-                </p>
+                <h3></h3>
+                <h2>UMKM TEGALSARI</h2>
+                <p></p>
                 <div className="btn-box">
                   <Link to="/" className="theme-btn btn-one">
                     <span>Discover More</span>
@@ -81,16 +70,8 @@ function Banner() {
           <SwiperSlide className="slide-item p_relative">
             <div className="pattern-layer">
               <div
-                className="pattern-1"
-                style={{ backgroundImage: `url(${bgShape1})` }}
-              ></div>
-              <div
                 className="pattern-2"
                 style={{ backgroundImage: `url(${bgShape2})` }}
-              ></div>
-              <div
-                className="pattern-3"
-                style={{ backgroundImage: `url(${bgShape3})` }}
               ></div>
             </div>
             <div
@@ -99,12 +80,9 @@ function Banner() {
             ></div>
             <div className="auto-container">
               <div className="content-box p_relative d_block z_5">
-                <h3>Discover The Truth</h3>
-                <h2>Private Investigation Services</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                  ridiculus tellus elit turpis.
-                </p>
+                <h3></h3>
+                <h2>UMKM TEGALSARI</h2>
+                <p></p>
                 <div className="btn-box">
                   <Link to="/" className="theme-btn btn-one">
                     <span>Discover More</span>
