@@ -1,7 +1,7 @@
 import SingleService from "../../components/Service/SingleService";
 
-import serviceIcon1 from "../../assets/images/service/service-1.jpg";
-import serviceIcon2 from "../../assets/images/service/service-1.jpg";
+import serviceIcon1 from "../../assets/images/banner/bannerkopiatas.png";
+import serviceIcon2 from "../../assets/images/banner/bannerlemonatas.jpg";
 import serviceIcon3 from "../../assets/images/banner/madu-besar.png";
 
 const Service = () => {

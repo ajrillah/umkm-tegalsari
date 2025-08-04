@@ -4,7 +4,7 @@ import bgImg1 from "../../assets/images/shape/shape-16.png";
 import aboutPart1 from "../../assets/images/resource/men-2.png";
 import aboutPart2 from "../..//assets/images/banner/bannerlemonatas.jpg";
 import aboutPart3 from "../../assets/images/banner/bannerlemontengah.jpg";
-import aboutPart4 from "../../assets/images/banner/bannerlemonbawah.jpg";
+import aboutPart4 from "../../assets/images/banner/bannerlemonbawah.png";
 import aboutPart5 from "../../assets/images/banner/madu3.JPG";
 import aboutPart6 from "../../assets/images/banner/madu3.JPG";
 import aboutPart7 from "../../assets/images/service/service-13.jpg";
