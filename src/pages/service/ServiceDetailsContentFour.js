@@ -2,9 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import bgImg1 from "../../assets/images/shape/shape-16.png";
 import aboutPart1 from "../../assets/images/resource/men-2.png";
-import aboutPart2 from "../..//assets/images/banner/madu2.JPG";
-import aboutPart3 from "../../assets/images/banner/madu3.JPG";
-import aboutPart4 from "../../assets/images/banner/madu8.jpeg";
+import aboutPart2 from "../..//assets/images/banner/bannerlemonatas.jpg";
+import aboutPart3 from "../../assets/images/banner/bannerlemontengah.jpg";
+import aboutPart4 from "../../assets/images/banner/bannerlemonbawah.jpg";
 import aboutPart5 from "../../assets/images/banner/madu3.JPG";
 import aboutPart6 from "../../assets/images/banner/madu3.JPG";
 import aboutPart7 from "../../assets/images/service/service-13.jpg";
@@ -25,23 +25,16 @@ const ServiceDetailsContentTwo = () => {
                       <img src={aboutPart2} alt="" />
                     </figure>
                     <div className="text-box">
-                      <h2>Madu Tegalsari</h2>
+                      <h2>Lemon di Desa Tegalsari</h2>
                       <p>
-                        Desa Tegalsari, yang terletak di tengah keindahan alam
-                        pedesaan, menjadi rumah bagi sebuah UMKM unik yang
-                        mengandalkan potensi alam liar: produksi madu asli dari
-                        lebah liar. Tidak seperti madu komersial pada umumnya
-                        yang berasal dari lebah jenis Apis mellifera, madu dari
-                        Tegalsari dipanen langsung dari sarang lebah liar yang
-                        hidup di hutan sekitar desa.
-                      </p>
-                      <p>
-                        Proses pemanenan dilakukan secara alami dan
-                        berkelanjutan oleh warga lokal yang telah mewarisi
-                        pengetahuan ini secara turun-temurun. UMKM ini tidak
-                        hanya menghadirkan produk madu murni berkualitas tinggi,
-                        tetapi juga menciptakan lapangan kerja dan menumbuhkan
-                        kesadaran akan pentingnya menjaga ekosistem hutan.
+                        Desa Tegalsari yang terletak di kawasan pegunungan
+                        Wonosobo memiliki kondisi tanah yang subur dan iklim
+                        yang sejuk, menjadikannya tempat yang ideal untuk
+                        budidaya tanaman lemon. Buah lemon yang dihasilkan
+                        memiliki warna cerah, kulit yang tebal, serta aroma
+                        segar yang khas. Lemon dari desa ini dikenal memiliki
+                        rasa yang seimbang antara asam dan segar, menjadikannya
+                        bahan favorit dalam berbagai olahan makanan dan minuman.
                       </p>
                     </div>
                   </div>
@@ -54,20 +47,18 @@ const ServiceDetailsContentTwo = () => {
                       </div>
                       <div className="col-lg-6 col-md-6 col-sm-12 text-column">
                         <div className="text-box ml_30">
-                          <h2>Lebah</h2>
+                          <h2>Proses Budidaya yang Alami</h2>
                           <p>
-                            Madu dari lebah liar dikenal memiliki khasiat yang
-                            lebih tinggi karena dihasilkan dari beragam jenis
-                            bunga hutan yang tidak bisa ditemukan pada budidaya
-                            lebah biasa. Warna, rasa, dan aroma madunya sangat
-                            khas dan cenderung lebih pekat. Lebah liar juga
-                            lebih tahan terhadap penyakit, sehingga produksi
-                            madunya tidak memerlukan perlakuan kimiawi. Selain
-                            itu, proses panen yang dilakukan secara tradisional
-                            tanpa sentuhan bahan tambahan membuat madu ini tetap
-                            alami dan bernutrisi. UMKM Tegalsari memastikan
-                            setiap tetes madu yang dijual merupakan hasil alam
-                            yang murni, aman, dan bergizi.
+                            Budidaya lemon dilakukan oleh petani lokal dengan
+                            metode organik, tanpa penggunaan pestisida atau
+                            bahan kimia sintetis. Tanaman dirawat secara rutin
+                            dengan pemangkasan, penyiraman teratur, dan
+                            pemupukan alami. Proses panen dilakukan secara
+                            selektif saat buah mencapai kematangan sempurna
+                            untuk menjaga kualitas dan kandungan gizinya.
+                            Pendekatan alami ini tidak hanya menjaga kesegaran
+                            dan rasa lemon, tetapi juga mendukung pertanian
+                            berkelanjutan yang ramah lingkungan.
                           </p>
                         </div>
                       </div>
@@ -75,19 +66,17 @@ const ServiceDetailsContentTwo = () => {
                   </div>
                   <div className="content-three mb_70">
                     <div className="text-box mb_40">
-                      <h2>Produk</h2>
+                      <h2>Manfaat dan Olahan Produk</h2>
                       <p>
-                        UMKM Madu Tegalsari menghadirkan beragam produk madu
-                        murni dari lebah liar, dikemas dalam berbagai ukuran
-                        sesuai kebutuhan konsumen. Madu tersedia dalam bentuk
-                        cair botolan serta dalam bentuk sarang madu utuh
-                        (honeycomb), yang masih terjaga keasliannya. Tanpa
-                        tambahan pemanis, pengawet, atau proses pemanasan
-                        tinggi, setiap produk mempertahankan enzim, aroma, dan
-                        nutrisi alaminya. Kemasannya pun sederhana namun
-                        higienis. Produk ini cocok dikonsumsi sebagai suplemen
-                        harian, oleh-oleh khas desa, atau bahan alami untuk
-                        pengobatan tradisional.
+                        Lemon Tegalsari banyak dimanfaatkan sebagai bahan
+                        infused water, campuran teh herbal, serta sebagai
+                        penambah cita rasa pada masakan. Selain itu, para pelaku
+                        UMKM juga mengolah lemon menjadi sirup lemon, selai, dan
+                        permen lemon yang alami dan menyehatkan. Dengan
+                        kandungan vitamin C yang tinggi dan sifat
+                        antibakterinya, lemon ini menjadi salah satu produk
+                        unggulan yang memiliki potensi besar untuk dikembangkan
+                        ke pasar yang lebih luas.
                       </p>
                     </div>
                     <div className="inner-box centred">

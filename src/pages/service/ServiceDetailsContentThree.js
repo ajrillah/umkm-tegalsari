@@ -27,13 +27,13 @@ const ServiceDetailsContentTwo = () => {
                     <div className="text-box">
                       <h2>Madu Tegalsari</h2>
                       <p>
-                        Desa Tegalsari, yang terletak di tengah keindahan alam
-                        pedesaan, menjadi rumah bagi sebuah UMKM unik yang
-                        mengandalkan potensi alam liar: produksi madu asli dari
-                        lebah liar. Tidak seperti madu komersial pada umumnya
-                        yang berasal dari lebah jenis Apis mellifera, madu dari
-                        Tegalsari dipanen langsung dari sarang lebah liar yang
-                        hidup di hutan sekitar desa.
+                        yang terletak di tengah keindahan alam pedesaan, menjadi
+                        rumah bagi sebuah UMKM unik yang mengandalkan potensi
+                        alam liar: produksi madu asli dari lebah liar. Tidak
+                        seperti madu komersial pada umumnya yang berasal dari
+                        lebah jenis Apis mellifera, madu dari Tegalsari dipanen
+                        langsung dari sarang lebah liar yang hidup di hutan
+                        sekitar desa.
                       </p>
                       <p>
                         Proses pemanenan dilakukan secara alami dan

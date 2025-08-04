@@ -1,14 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import bgImg1 from "../../assets/images/shape/shape-16.png";
-import aboutPart1 from "../../assets/images/resource/men-2.png";
-import aboutPart2 from "../..//assets/images/banner/madu2.JPG";
-import aboutPart3 from "../../assets/images/banner/madu3.JPG";
-import aboutPart4 from "../../assets/images/banner/madu8.jpeg";
-import aboutPart5 from "../../assets/images/banner/madu3.JPG";
-import aboutPart6 from "../../assets/images/banner/madu3.JPG";
-import aboutPart7 from "../../assets/images/service/service-13.jpg";
-import aboutPart8 from "../../assets/images/service/service-14.jpg";
+// import { Link } from "react-router-dom";
+// import bgImg1 from "../../assets/images/shape/shape-16.png";
+// import aboutPart1 from "../../assets/images/resource/men-2.png";
+import aboutPart2 from "../..//assets/images/banner/bannerkopiatas.png";
+import aboutPart3 from "../../assets/images/banner/bannerkopitengah.png";
+import aboutPart4 from "../../assets/images/banner/bannerkopibawah.png";
+// import aboutPart5 from "../../assets/images/banner/madu3.JPG";
+// import aboutPart6 from "../../assets/images/banner/madu3.JPG";
+// import aboutPart7 from "../../assets/images/service/service-13.jpg";
+// import aboutPart8 from "../../assets/images/service/service-14.jpg";
 
 const ServiceDetailsContentTwo = () => {
   return (
@@ -25,23 +25,16 @@ const ServiceDetailsContentTwo = () => {
                       <img src={aboutPart2} alt="" />
                     </figure>
                     <div className="text-box">
-                      <h2>Madu Tegalsari</h2>
+                      <h2>Circle Coffee</h2>
                       <p>
-                        Desa Tegalsari, yang terletak di tengah keindahan alam
-                        pedesaan, menjadi rumah bagi sebuah UMKM unik yang
-                        mengandalkan potensi alam liar: produksi madu asli dari
-                        lebah liar. Tidak seperti madu komersial pada umumnya
-                        yang berasal dari lebah jenis Apis mellifera, madu dari
-                        Tegalsari dipanen langsung dari sarang lebah liar yang
-                        hidup di hutan sekitar desa.
-                      </p>
-                      <p>
-                        Proses pemanenan dilakukan secara alami dan
-                        berkelanjutan oleh warga lokal yang telah mewarisi
-                        pengetahuan ini secara turun-temurun. UMKM ini tidak
-                        hanya menghadirkan produk madu murni berkualitas tinggi,
-                        tetapi juga menciptakan lapangan kerja dan menumbuhkan
-                        kesadaran akan pentingnya menjaga ekosistem hutan.
+                        Circle Coffee merupakan UMKM kopi asal Desa Tegalsari
+                        yang memproduksi kopi lokal dari biji kopi yang tumbuh
+                        langsung di lereng Gunung Bismo. Didirikan pada tahun
+                        2021, setiap produk yang dihasilkan membawa rasa khas
+                        alam Desa Tegalsari dan semangat masyarakatnya. Circle
+                        Coffee dirintis oleh Ahmad Fadol, pemuda desa yang ingin
+                        memperkenalkan cita rasa khas kopi asli Desa Tegalsari
+                        ke khalayak yang lebih luas.
                       </p>
                     </div>
                   </div>
@@ -54,20 +47,20 @@ const ServiceDetailsContentTwo = () => {
                       </div>
                       <div className="col-lg-6 col-md-6 col-sm-12 text-column">
                         <div className="text-box ml_30">
-                          <h2>Lebah</h2>
+                          <h2>Kopi</h2>
                           <p>
-                            Madu dari lebah liar dikenal memiliki khasiat yang
-                            lebih tinggi karena dihasilkan dari beragam jenis
-                            bunga hutan yang tidak bisa ditemukan pada budidaya
-                            lebah biasa. Warna, rasa, dan aroma madunya sangat
-                            khas dan cenderung lebih pekat. Lebah liar juga
-                            lebih tahan terhadap penyakit, sehingga produksi
-                            madunya tidak memerlukan perlakuan kimiawi. Selain
-                            itu, proses panen yang dilakukan secara tradisional
-                            tanpa sentuhan bahan tambahan membuat madu ini tetap
-                            alami dan bernutrisi. UMKM Tegalsari memastikan
-                            setiap tetes madu yang dijual merupakan hasil alam
-                            yang murni, aman, dan bergizi.
+                            Kopi yang dihasilkan oleh Circle Coffee berasal dari
+                            kebun-kebun kopi milik warga yang tersebar di
+                            lereng-lereng sekitar desa. Biji kopi yang digunakan
+                            merupakan jenis Arabika dan Robusta, yang tumbuh
+                            secara alami dan memiliki cita rasa asam yang khas.
+                            Karakteristik tanah serta iklim sejuk di ketinggian
+                            900–1200 mdpl menjadikan kopi dari wilayah lereng
+                            Gunung Bismo ini memiliki kualitas alami yang
+                            unggul. Selain itu, setiap tahapan dilakukan
+                            sekaligus memberdayakan warga sekitar melalui
+                            pertanian kopi dan industri kreatif berbasis produk
+                            lokal.
                           </p>
                         </div>
                       </div>
@@ -77,17 +70,24 @@ const ServiceDetailsContentTwo = () => {
                     <div className="text-box mb_40">
                       <h2>Produk</h2>
                       <p>
-                        UMKM Madu Tegalsari menghadirkan beragam produk madu
-                        murni dari lebah liar, dikemas dalam berbagai ukuran
-                        sesuai kebutuhan konsumen. Madu tersedia dalam bentuk
-                        cair botolan serta dalam bentuk sarang madu utuh
-                        (honeycomb), yang masih terjaga keasliannya. Tanpa
-                        tambahan pemanis, pengawet, atau proses pemanasan
-                        tinggi, setiap produk mempertahankan enzim, aroma, dan
-                        nutrisi alaminya. Kemasannya pun sederhana namun
-                        higienis. Produk ini cocok dikonsumsi sebagai suplemen
-                        harian, oleh-oleh khas desa, atau bahan alami untuk
-                        pengobatan tradisional.
+                        Circle Coffee menawarkan berbagai produk unggulan yang
+                        berasal dari kekayaan alam Desa Tegalsari, dengan dua
+                        jenis utama yaitu kopi Arabika dan Robusta. Varian
+                        Arabika menggunakan jenis Java Arabica yang diolah
+                        melalui beragam metode tersedia seperti full wash,
+                        natural, semi-wash, hingga wine process yang
+                        masing-masing memberikan karakter rasa berbeda, mulai
+                        dari bersih dan strong hingga kompleks dan fermentatif.
+                        Sementara itu, Robusta yang digunakan adalah Robusta
+                        Highland, yang tumbuh di dataran tinggi dan tetap
+                        menyimpan cita rasa asam khas meski berkarakter kuat.
+                        Selain kopi, Circle Coffee juga memproduksi coklat asli
+                        dari kakao lokal yang diolah tanpa tambahan bahan kimia,
+                        serta lemon kering yang cocok untuk diseduh sebagai
+                        minuman sehat alami. Seluruh produk dikemas dengan
+                        konsep sederhana namun berkelas, cocok sebagai
+                        oleh-oleh, konsumsi harian, maupun bagian dari gaya
+                        hidup sehat dan berkelanjutan.
                       </p>
                     </div>
                     <div className="inner-box centred">
